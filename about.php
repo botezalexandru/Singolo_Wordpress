@@ -3,7 +3,7 @@
 Template Name: About Us
 */
 
-include "header.php";
+get_header();
 ?>
 
  <?php 
@@ -66,4 +66,4 @@ include "header.php";
 </div>
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>
