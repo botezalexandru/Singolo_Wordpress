@@ -224,18 +224,5 @@ function my_custom_taxonomies() {
 add_action( 'init', 'my_custom_taxonomies' );
 
 
-// function add_custom_metabox() {
-
-//   add_meta_box(
-//      'd_meta',
-//      'Social Media',
-//      'd_meta_callback',
-//      'job'
-//     );
-// }
-// add_action('add_meta_boxes', )
-
-
-
 ?>
 
