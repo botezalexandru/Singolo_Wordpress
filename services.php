@@ -3,7 +3,7 @@
 Template Name: Services
 */
 
-include "header.php";
+get_header();
 ?>
 
 
@@ -54,4 +54,4 @@ include "header.php";
 </div>
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>
