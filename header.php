@@ -27,13 +27,7 @@
             <div class="toggle-menu">
                 <img src="images/menu_toggle.png">
             </div>
-			<!--  <ul class="nav-menu">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#our-services-menu">SERVICES</a></li>
-                <li><a href="#portofolio-menu">PORTOFOLIO</a></li>
-                <li><a href="#about-us-menu">ABOUT</a></li>
-                <li><a href="#get-a-quote-menu">CONTACT</a></li>
-            </ul> -->
+		
             <div class="nav-menu">
                 <?php wp_nav_menu( $args ); ?> 
             </div>
