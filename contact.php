@@ -3,7 +3,7 @@
 Template Name: Contact 
 */
 
-include "header.php";
+get_header();
 ?>
 
 <div class="get-a-quote" id="get-a-quote-menu">
@@ -51,4 +51,4 @@ include "header.php";
 </div>
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>
