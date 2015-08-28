@@ -1,15 +1,4 @@
-<?php 
 
-
-$args1 = array(
-        'post_type' => 'social_media',
-        'orderby' => 'menu_order',
-        'post_per_page' => -1
-    );
-    $social_media = new WP_Query ( $args1 );
-
-
-?>
 
 <footer>
     <div class="inner-content">
