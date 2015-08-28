@@ -186,35 +186,6 @@ function custom_post_type () {
   register_post_type( 'about_staff', $args );
 
 
-    
-  $labels = array(
-    'name'               => 'Social Media',
-    'singular_name'      => 'Network',
-    'add_new'            => 'Add network',
-    'all_items'          => 'All networks',
-    'add_new_item'       => 'Add network',
-    'edit_item'          => 'Edit network',
-    'new_item'           => 'New network',
-    'view_item'          => 'View network',
-    'search_items'       => 'Search network',
-    'not_found'          => 'No network found',
-    'not_found_in_trash' => 'No network found in trash'
-    );
-
-  $args = array (
-    'labels'      => $labels,
-    'public'      => true,
-    'has_archive' => true,
-    'menu_icon'   => 'dashicons-share',
-    'rewrite'     => array( 'slug' => 'network'),       
-    'supports'    => array(
-      'title',
-      'editor',
-      'thumbnail',
-      'page-attributes'
-            )
-    );
-  register_post_type( 'social_media', $args );
 }
 add_action( 'init', 'custom_post_type' );
 
