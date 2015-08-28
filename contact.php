@@ -14,16 +14,7 @@ include "header.php";
             <p><?php echo get_the_content(); ?></p>
         <?php endwhile; endif; ?>
 
-       <!--  <h4>Get a Quote</h4>
-
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> -->
-
-
-        
-
-
+      
 
         <form class="quote-form" method="post" action="<?php bloginfo('template_directory'); ?>/form-get.php" >
             <input type="text" name="userName" placeholder="Name(Required)" onfocus="this.placeholder = '' "
@@ -42,9 +33,6 @@ include "header.php";
         <address class="contact-information">
             <h6>Contact Information</h6>
         
-
-
-
             <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit
                 amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat
                 felis.
