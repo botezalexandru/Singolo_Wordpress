@@ -59,33 +59,7 @@ Template Name: Slider
             </div>
         </div>
 
-        
-            
-
-
-
-
-        <!-- <div class="banner">
-            <div class="inner-content">
-                <div class="banner-content banner-content-image">
-                    <img src="<?php bloginfo ('template_url'); ?> /Images/iphone_image.png">
-                </div>
-            </div>
-        </div>
-        <div class="banner">
-            <div class="inner-content">
-                <div class="banner-content banner-content-image">
-                    <img src="<?php bloginfo ('template_url'); ?> /Images/iphone_image.png">
-                </div>
-            </div>
-        </div>
-        <div class="banner">
-            <div class="inner-content">
-                <div class="banner-content banner-content-image">
-                   <img src="<?php bloginfo ('template_url'); ?> /Images/iphone_image.png"> 
-                </div>
-            </div>
-        </div> -->
+    
     </div>
 </div>
 
