@@ -1,4 +1,4 @@
 
-<?php include("header.php"); ?>
+<?php get_header(); ?>
 <?php include("slider.php"); ?>
-<?php include("footer.php"); ?>
+<?php get_footer(); ?> 

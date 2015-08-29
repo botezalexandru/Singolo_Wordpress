@@ -3,7 +3,7 @@
 Template Name: Services
 */
 
-include "header.php";
+get_header();
 ?>
 
 
@@ -28,10 +28,6 @@ include "header.php";
 			<?php endwhile; endif; ?>
 
 
-		<!-- <span class="our-services-title">Our Services</span>
-		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
- -->
-
 		<div class="services-list">
 
 			<?php 
@@ -52,67 +48,10 @@ include "header.php";
 			?>
 
 
-			<!-- <div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/pen.png">
-				</div>
-				<div class="service-description">
-					<span>Custom Design</span>
-					<p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-				</div>
-			</div> -->
-
-			<!-- <div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/bulb.png">
-				</div>
-				<div class="service-description">
-					<span>Inovative Ideas</span>
-					<p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-				</div>
-			</div>
-			<div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/heart.png">
-				</div>
-				<div class="service-description">
-					<span>Love Is The Answer</span>
-					<p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-				</div>
-			</div>
-			<div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/phone_menu.png">
-				</div>
-				<div class="service-description">
-					<span>Responsive Layout</span>
-					<p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-				</div>
-			</div>
-			<div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/bubble.png">
-				</div>
-				<div class="service-description">
-					<span>24 / 7 Support</span>
-					<p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
-				</div>
-			</div>
-			<div class="service">
-				<div class="service-logo">
-					<img src=" <?php bloginfo ('template_url'); ?> /Images/star.png">
-				</div>
-				<div class="service-description">
-					<span>Feel Like A Star</span>
-					<p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-				</div>
-			</div> -->
-
-
 
 		</div>
 	</div>
 </div>
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>

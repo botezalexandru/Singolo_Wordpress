@@ -3,7 +3,7 @@
 Template Name: About Us
 */
 
-include "header.php";
+get_header();
 ?>
 
  <?php 
@@ -13,9 +13,6 @@ include "header.php";
         'post_per_page' => -1
     );
     $about_staff = new WP_Query ( $args );
-
-
-
 
 ?>
 
@@ -27,12 +24,6 @@ include "header.php";
                 <p><?php echo get_the_content(); ?></p>
             <?php endwhile; endif; ?>
 
-        <!-- <h2>About Us</h2>
-
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-            Duis mollis, non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
- -->
         <ul class="about-us_profile">
             
 
@@ -63,54 +54,11 @@ include "header.php";
                                      echo '<li class="linkedin-button"><a href="' .get_post_meta($post->ID, "linkedin", true).'" target="_blank" ></a></li>';
                                 } ?>
 
-
-
-
-        
                         </ul>  
                     </li>
 
-
-                   
-
-
-               
-
             <?php endwhile; ?>
 
-
-              
-            
-
-
-            <!-- <li>
-                <img src=" <?php bloginfo ('template_url'); ?>/Images/About%20Us/Desmond%20Miles.png">
-                <h4>Desmond Miles</h4>
-
-                <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices
-                    velit.</p>
-                <ul class="social-media-sites">
-                    <li class="facebook-button"><a href="https://www.facebook.com/"></a></li>
-                    <li class="google-plus-button"><a href="https://plus.google.com/"> </a></li>
-                    <li class="twitter-button"><a href="https://twitter.com/"> </a></li>
-                    <li class="linkedin-button"><a href="https://www.linkedin.com/"> </a></li>
-                </ul>
-            </li>
-
-
-            <li>
-                <img src=" <?php bloginfo ('template_url'); ?>/Images/About%20Us/Scolara%20Visari.png">
-                <h4>Scolara Visari</h4>
-
-                <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque
-                    condimentum.</p>
-                <ul class="social-media-sites">
-                    <li class="facebook-button"><a href="https://www.facebook.com/"></a></li>
-                    <li class="google-plus-button"><a href="https://plus.google.com/"> </a></li>
-                    <li class="twitter-button"><a href="https://twitter.com/"> </a></li>
-                    <li class="linkedin-button"><a href="https://www.linkedin.com/"> </a></li>
-                </ul>
-            </li> -->
         </ul>
 
     </div>
@@ -118,4 +66,4 @@ include "header.php";
 </div>
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>
