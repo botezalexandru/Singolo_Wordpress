@@ -35,7 +35,7 @@ $portfolio_projects = new WP_Query ( $args );
                 $post_terms = wp_get_post_terms( $post->ID, 'projects_category', array( "fields" => "slugs" ) );
                 $post_terms_space_separated = implode(" ", $post_terms);                
             ?>
-            <li class="<?php echo $post_terms_space_separated; ?>"><?php the_post_thumbnail('project-thumb'); ?></li>
+            <li class="<?php echo $post_terms_space_separated; ?>"><a href=" <?php echo get_permalink(); ?> "><?php the_post_thumbnail('project-thumb'); ?></a></li>
             
         <?php endwhile; ?>
 
